@@ -1,0 +1,5 @@
+name: CapeHider
+version: '${project.version}'
+main: me.onlyjordon.capehider.CapeHider
+depend:
+  - nicknamer-api
