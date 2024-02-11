@@ -1,7 +1,7 @@
 package me.onlyjordon.capehider;
 
 import me.onlyjordon.capehider.commands.Command;
-import me.onlyjordon.nicknamingapi.NMSDisguiser;
+import me.onlyjordon.nicknamingapi.Nicknamer;
 import me.onlyjordon.nicknamingapi.utils.SkinLayers;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
@@ -11,9 +11,9 @@ import java.util.HashMap;
 
 public class CommandToggleCape extends Command {
 
-    private final NMSDisguiser disguiser;
+    private final Nicknamer disguiser;
 
-    protected CommandToggleCape(NMSDisguiser disguiser) {
+    protected CommandToggleCape(Nicknamer disguiser) {
         super("togglecape", "capehider.togglecape");
         this.disguiser = disguiser;
     }

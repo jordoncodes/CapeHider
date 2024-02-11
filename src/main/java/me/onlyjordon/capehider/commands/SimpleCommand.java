@@ -1,6 +1,5 @@
 package me.onlyjordon.capehider.commands;
 
-import me.onlyjordon.nicknamingapi.commands.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.Permission;
 
